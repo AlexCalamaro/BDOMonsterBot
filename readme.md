@@ -2,10 +2,10 @@
 Per request, here is my mostly working sea-monster loot calculating discord bot. It comes with no license (written or implied) and support will probably be nonexistant. While this program is not intentionally malicious in any way and does not record or store any data (outside of memory), it also was written with no regard for security or privacy.
 
 ## Requirements:
--Python 3.6 (or theoretically any version >3 and <3.7)
--Pytesseract and Tesseract OCR version 3.05.02 (this is hard to find but some German university hosts an installer somewhere)
--Everything else imported at the top of the file (I suggest PIP)
--An existing discord application with a bot. The token should be plug-and-play.
+* Python 3.6 (or theoretically any version >3 and <3.7) 
+* Pytesseract and Tesseract OCR version 3.05.02 (this is hard to find but some German university hosts an installer somewhere)
+* Everything else imported at the top of the file (I suggest PIP)
+* An existing discord application with a bot. The token should be plug-and-play.
 
 ## Usage:
 Set up your bot accout through discord, add the token to `monsterbotpublic.py`. To minimize CPU usage from parsing EVERY image uploaded to a discord server, I suggest using permissions to only allow the bot access to a text channel in which you only record sea-monster loot. There is also an empty string in the file which accepts the id of the channel you would like the bot to observe. This string can be obtained by enabling discord developer mode, right-clicking on the channel and clicking `copy-id`.
