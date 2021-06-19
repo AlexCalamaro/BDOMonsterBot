@@ -24,5 +24,3 @@ If you find issues and wish to refine the image recognition, the `monster_test.p
 ## Fonts:
 If you or someone in your guild uses a custom font, accuracy of the bot may decrease significantly. Tesseract OCR can be trained on custom fonts, but I have not done so since it is a pain.
 
-# \<BRUTAL> WINS AGAIN
-\<BRUTAL> WINS AGAIN
